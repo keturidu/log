@@ -1,0 +1,202 @@
+JOURNALD LOG:
+
+2023-06-18 10:58	kernel	x86/split lock detection: #AC: RaceTheSun.x86/9124 took a split_lock trap at address: 0xee6b8ff4
+2023-06-18 10:58	kernel	x86/split lock detection: #AC: RaceTheSun.x86/9181 took a split_lock trap at address: 0xee6b8ff4
+2023-06-18 10:58	kernel	x86/split lock detection: #AC: RaceTheSun.x86/9192 took a split_lock trap at address: 0xee6b8ff4
+2023-06-18 10:58	kwin_wayland	This plugin does not support raise()
+2023-06-18 10:58	kwin_wayland	This plugin does not support raise()
+2023-06-18 10:58	rfkill	block set for type bluetooth
+
+TERMINAL LOG:
+
+STEAM_FORCE_DESKTOPUI_SCALING=1.5 steam                                                               ✔
+steam.sh[7715]: Running Steam on manjarolinux 23.0.0 64-bit
+steam.sh[7715]: STEAM_RUNTIME is enabled automatically
+setup.sh[7787]: Steam runtime environment up-to-date!
+steam.sh[7715]: Steam client's requirements are satisfied
+[2023-06-18 10:55:02] Startup - updater built Jun 16 2023 01:41:16
+[2023-06-18 10:55:02] Startup - Steam Client launched with: '/home/keturidu/.local/share/Steam/ubuntu12_32/steam'
+06/18 10:55:02 Init: Installing breakpad exception handler for appid(steam)/version(1686880776)/tid(7847)
+[2023-06-18 10:55:02] Loading cached metrics from disk (/home/keturidu/.local/share/Steam/package/steam_client_metrics.bin)
+[2023-06-18 10:55:02] Using the following download hosts for Public, Realm steamglobal
+[2023-06-18 10:55:02] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-06-18 10:55:02] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-06-18 10:55:02] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-06-18 10:55:02] Verifying installation...
+[2023-06-18 10:55:02] Verification complete
+
+(process:7847): GLib-GObject-CRITICAL **: 10:55:02.667: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:7847): GLib-GObject-CRITICAL **: 10:55:02.667: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Loaded SDL version 3.0.0-1735-g2e465ae31
+XRRGetOutputInfo Workaround: initialized with override: 0 real: 0xe9f0bdb0
+XRRGetCrtcInfo Workaround: initialized with override: 0 real: 0xe9f0a500
+GetWin32Stats: display was not open yet, good
+ComputeStartupMode: found registry default startup mode: 0
+Switching to desktopui, since -vgui was not specified
+GetWin32Stats: display was not open yet, good
+steamwebhelper.sh[7881]: Runtime for steamwebhelper: defaulting to /home/keturidu/.local/share/Steam/ubuntu12_64/steam-runtime-heavy
+steamwebhelper.sh[7881]: glibc >= 2.34, partially disabling sandbox until CEF supports clone3()
+CAppInfoCacheReadFromDiskThread took 75 milliseconds to initialize
+Failed to init SteamVR because it isn't installed
+roaming config store loaded successfully - 0 bytes.
+
+(steam:7847): Gtk-WARNING **: 10:55:03.557: gtk_disable_setlocale() must be called before gtk_init()
+
+(steam:7847): Gtk-WARNING **: 10:55:03.560: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Yaru-prussiangreen/gtk-2.0/main.rc:775: error: unexpected identifier 'direction', expected character '}'
+
+(steam:7847): Gtk-WARNING **: 10:55:03.560: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Yaru-prussiangreen/gtk-2.0/hacks.rc:28: error: invalid string constant "normal_entry", expected valid string constant
+BRefreshApplicationsInLibrary 1: 0ms
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:03.620: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:03.620: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+System startup time: 1.11 seconds
+Store/Community web auth request failed: Auth error
+BuildCompleteAppOverviewChange: 312 apps
+RegisterForAppOverview 1: 9ms
+RegisterForAppOverview 2: 10ms
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:05.373: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:05.373: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ExecCommandLine: "'/home/keturidu/.local/share/Steam/ubuntu12_32/steam'"
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:43.954: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:43.954: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to ProcessingInstallScript with ""
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to SynchronizingCloud with ""
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to SiteLicenseSeatCheckout with ""
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to CreatingProcess with ""
+GameAction [AppID 253030, ActionID 1] : LaunchApp waiting for user response to CreatingProcess ""
+GameAction [AppID 253030, ActionID 1] : LaunchApp continues with user response "CreatingProcess"
+/bin/sh\0-c\0prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'\0
+Game process added : AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 8757, IP 0.0.0.0:0
+chdir "/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun"
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+Set current directory to /home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun
+Found path: /home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun.x86
+Mono path[0] = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Managed'
+Mono path[1] = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Mono'
+Mono config path = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Mono/etc'
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to WaitingGameWindow with ""
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:54.319: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:54.319: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+displaymanager : xrandr version warning. 1.6
+client has 1 screens
+displaymanager screen (0)(eDP-1): 2560 x 1600
+Using libudev for joystick management
+
+
+Importing game controller configs
+GameAction [AppID 253030, ActionID 1] : LaunchApp changed task to Completed with ""
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:54.597: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:54.597: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Game process updated : AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 8759, IP 0.0.0.0:0
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:58.838: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:55:58.838: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Game process removed: AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 8759
+ThreadGetProcessExitCode: no such process 8817
+ThreadGetProcessExitCode: no such process 8816
+ThreadGetProcessExitCode: no such process 8814
+ThreadGetProcessExitCode: no such process 8759
+ThreadGetProcessExitCode: no such process 8758
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:56:29.807: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:56:29.807: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:56:30.341: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:56:30.341: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[2023-06-18 10:57:03] Background update loop checking for update. . .
+[2023-06-18 10:57:03] Checking for available updates...
+[2023-06-18 10:57:03] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_client_ubuntu12?t=755677798
+[2023-06-18 10:57:03] Manifest download: send request
+[2023-06-18 10:57:03] Manifest download: waiting for download to finish
+[2023-06-18 10:57:04] Manifest download: finished
+[2023-06-18 10:57:04] Download skipped: /steam_client_ubuntu12?t=755677798 version 1686880776, installed version 1686880776, existing pending version 0
+[2023-06-18 10:57:04] Nothing to do
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to ProcessingInstallScript with ""
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to SynchronizingCloud with ""
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to SiteLicenseSeatCheckout with ""
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to CreatingProcess with ""
+GameAction [AppID 253030, ActionID 2] : LaunchApp waiting for user response to CreatingProcess ""
+GameAction [AppID 253030, ActionID 2] : LaunchApp continues with user response "CreatingProcess"
+/bin/sh\0-c\0prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'\0
+Game process added : AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 9122, IP 0.0.0.0:0
+chdir "/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun"
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to WaitingGameWindow with ""
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/keturidu/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+Set current directory to /home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun
+Found path: /home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun.x86
+Mono path[0] = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Managed'
+Mono path[1] = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Mono'
+Mono config path = '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/RaceTheSun_Data/Mono/etc'
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:09.359: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:09.359: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+GameAction [AppID 253030, ActionID 2] : LaunchApp changed task to Completed with ""
+displaymanager : xrandr version warning. 1.6
+client has 1 screens
+displaymanager screen (0)(eDP-1): 2560 x 1600
+Using libudev for joystick management
+
+
+Importing game controller configs
+WARNING: discarding _NET_WM_PID 8944 as invalid for X11 window - use specialized XCB_X11_TO_PID function!
+WARNING: discarding _NET_WM_PID 8944 as invalid for X11 window - use specialized XCB_X11_TO_PID function!
+WARNING: discarding _NET_WM_PID 8944 as invalid for X11 window - use specialized XCB_X11_TO_PID function!
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:09.736: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:09.736: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Game process updated : AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 9124, IP 0.0.0.0:0
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:13.119: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:13.119: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Game process removed: AppID 253030 "prime-run /home/keturidu/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=253030 -- /home/keturidu/.local/share/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/keturidu/.local/share/Steam/steamapps/common/RaceTheSun/launch_linux.sh'", ProcID 9124
+ThreadGetProcessExitCode: no such process 9188
+ThreadGetProcessExitCode: no such process 9187
+ThreadGetProcessExitCode: no such process 9185
+ThreadGetProcessExitCode: no such process 9124
+ThreadGetProcessExitCode: no such process 9123
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:37.165: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:37.165: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:37.644: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 10:58:37.644: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ExecuteSteamURL: "steam://open/steam://exit/"
+
+(steam:7847): GLib-GObject-CRITICAL **: 11:01:31.028: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 11:01:31.028: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 11:01:35.791: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:7847): GLib-GObject-CRITICAL **: 11:01:35.792: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[2023-06-18 11:01:35] Shutdown
